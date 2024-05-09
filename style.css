@@ -192,7 +192,7 @@
 }
 .portfolio-container{
    display: grid;
-   grid-template-columns: repeat(2,1fr);
+   grid-template-columns: repeat(3,1fr);
    align-items: center;
    gap: 2.5rem;
 }
@@ -202,8 +202,8 @@
    box-shadow: 0 0 1rem var(--bg-color);
    overflow: hidden;
    display: flex;
-   height:350px;
-   width: 550px;
+   height:250px;
+   width: 350px;
 }
 .portfolio-box img{
    width: 100%;
@@ -498,7 +498,7 @@
    background: #0ef;
    height: 100%;
    border-radius: 5px;
-   animation: fillAnimation 2s ease forwards;
+   animation: fillAnimation 3s ease forwards;
  }
  
  @keyframes fillAnimation {
